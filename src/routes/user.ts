@@ -14,6 +14,7 @@ router.post('/check-user', async (req, res) => {
     const user = await prisma.user.findUnique({ where: { email: email } });
 
     if (user) {
+     
       const token = jwt.sign({ email: user.email, id: user.id }, JWT_SECRET, { expiresIn: '1h' });
 
       return res.status(200).json({ success: true, token: token });
