@@ -1,0 +1,33 @@
+{
+  "name": "telegram-mini-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tsc && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.7.4",
+    "typescript": "^5.6.2"
+  },
+  "description": "",
+  "dependencies": {
+    "@prisma/client": "^5.20.0",
+    "@types/axios": "^0.14.0",
+    "@types/dotenv": "^8.2.0",
+    "@types/jsonwebtoken": "^9.0.7",
+    "axios": "^1.7.7",
+    "bignumber.js": "^9.1.2",
+    "canvas": "^2.11.2",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.2",
+    "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2",
+    "prisma": "^5.20.0",
+    "web3.storage": "^4.5.5"
+  }
+}
