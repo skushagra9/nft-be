@@ -8,7 +8,7 @@ app.use(express.json());
 app.use('/nft/user', userRoutes);
 app.use('/nft/mint', mintRoutes);
 
-const PORT = 5000;
+const PORT = 5010;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
