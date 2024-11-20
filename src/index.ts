@@ -5,8 +5,8 @@ import mintRoutes from './routes/mint';
 const app = express();
 app.use(express.json());
 
-app.use('/api/user', userRoutes);
-app.use('/api/mint', mintRoutes);
+app.use('/nft/user', userRoutes);
+app.use('/nft/mint', mintRoutes);
 
 const PORT = 5000;
 app.listen(PORT, () => {
