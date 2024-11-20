@@ -10,7 +10,7 @@ async function main() {
 //   }));
 
   const userData = {
-    email: "monika.sharma@gmail.com",
+    email: "skushagra.sharma@gmail.com",
     minted: false,
   }
 
